@@ -27,7 +27,7 @@
 
 ## 👁️ Preview
 
-* check out some screenshots of the application [here](https://github.com/im-lakshyaveerturna/Mratings/tree/main/Preview).
+* Check out some screenshots of the application [here](https://github.com/im-lakshyaveerturna/Mratings/tree/main/Preview).
 
 ## 📕 Note
 
