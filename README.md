@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <img src="thundercloud.png" alt="Mratings Logo" width="30%" />
+  <img src="mratings.png" alt="Mratings Logo" width="50%" />
 </p>
 
 <h3 align="center">
