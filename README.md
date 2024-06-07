@@ -19,6 +19,11 @@
 
 * **Light and Dark Mode**: Switch between light and dark mode with a simple toggle.
 
+## 📡 APIs used
+
+* [IMDb](https://rapidapi.com/apidojo/api/imdb8/)
+* [Movies Tv Shoes Database](https://rapidapi.com/amrelrafie/api/movies-tv-shows-database)
+
 
 ## 👁️ Preview
 
