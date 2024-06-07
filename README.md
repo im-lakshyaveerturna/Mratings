@@ -1,16 +1,30 @@
-# mratings
+<h1 align="center">
+  <strong>Mratings</strong>
+</h1>
 
-A new Flutter project.
+<p align="center">
+  <img src="thundercloud.png" alt="Mratings Logo" width="30%" />
+</p>
 
-## Getting Started
+<h3 align="center">
+  <strong>A basic Flutter application providing reviews of searched movies/shows</strong>
+</h3>
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## 📌 Key Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* **Search Functionality**: Easily search for review of the movie/show you desire to watch using the integrated search bar.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* **Comprehensive Weather Information**: Get comprehensive details including IMDb ratings, plot summaries, cast members, and directors of the searched movies/shows.
+
+* **Light and Dark Mode**: Switch between light and dark mode with a simple toggle.
+
+
+## 👁️ Preview
+
+* heck out some screenshots of the application [here](https://github.com/im-lakshyaveerturna/Mratings/tree/main/Preview).
+
+## 📕 Note
+
+* The application is most likely to be developed further, any suggestions regarding the appearance or funtionality of the application will be much appreciated.
+* This application was developed as an excercise to sharpen flutter/dart skills, therefore I do not expect the code or the application to be the best version of the intended project.
