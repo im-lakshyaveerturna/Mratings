@@ -29,7 +29,7 @@
 
 * Check out some screenshots of the application [here](https://github.com/im-lakshyaveerturna/Mratings/tree/main/Preview).
 
-## 📕 Note
+## 🔖 Note
 
 * The application is most likely to be developed further, any suggestions regarding the appearance or funtionality of the application will be much appreciated.
 * This application was developed as an excercise to sharpen flutter/dart skills, therefore I do not expect the code or the application to be the best version of the intended project.
