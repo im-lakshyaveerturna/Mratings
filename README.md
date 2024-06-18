@@ -1,6 +1,6 @@
-<p align="center">
-  <img src="mratings_logo.png" alt="MratingsLogo" width="50%" />
-</p>
+<h1 align="center">
+  <strong>Mratings</strong>
+</h1>
 
 <p align="center">
   <img src="mratings.png" alt="Mratings Logo" width="50%" />
