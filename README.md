@@ -15,7 +15,7 @@
 
 * **Search Functionality**: Easily search for review of the movie/show you desire to watch using the integrated search bar.
   
-* **Collections**: I have made collections of top movies from each major genres in case you don't know what to watch(common issue).
+* **Collections**: I have made collections of top movies from each major genre in case you don't know what to watch(common issue).
 
 * **Comprehensive Information**: Get comprehensive details including IMDb ratings, plot summaries, cast members, and directors of the searched movies/shows.
 
