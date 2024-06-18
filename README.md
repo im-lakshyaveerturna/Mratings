@@ -7,7 +7,7 @@
 </p>
 
 <h3 align="center">
-  <strong>A basic Flutter application providing reviews of searched movies/shows</strong>
+  <strong>A basic Flutter application providing reviews of desired movies/shows</strong>
 </h3>
 
 
