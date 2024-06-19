@@ -30,7 +30,7 @@
 ## 👁️ Preview
 Home Page             | Content Page           | Collections            | No Result Page
 :-------------------:|:----------------------:|:----------------------:|:----------------------:
-<img src="Preview/pages/homepage/homepage_dark.png" width="200"/> | <img src="Preview/pages/content_page/content_page_dark.png" width="200"/> | <img src="Preview/pages/collections/collections_dark.png" width="200"/> | <img src="Preview/pages/no_result_page/no_result_page_dark.png" width="200"/>
+<img src="Preview/pages/homepage/homepage_dark.png" width="200"/> | <img src="Preview/pages/content_page/content_page_dark.png" width="200"/> | <img src="Preview/pages/collections/collections_dark.png" width="200"/> | <img src="Preview/pages/no_result_page/noresultpage_dark.png" width="200"/>
 
 This is only the dark mode side of the application, to view light mode and some other screenshots, visit [here](https://github.com/im-lakshyaveerturna/Mratings/tree/main/Preview/pages)
 
