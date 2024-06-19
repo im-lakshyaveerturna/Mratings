@@ -1,5 +1,7 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
+import 'package:flutter/material.dart';
+
 
 class MovieData {
   static const String _apiKey = '4d10c89cbcmshe2fd1c1667c77ffp1e3733jsnedabffda54c0';
@@ -36,6 +38,8 @@ class MovieData {
 
           } else {
             print('No movie data found');
+
+
           }
         } catch (e) {
           print('Error decoding JSON: $e');
@@ -85,3 +89,4 @@ class MovieData {
     }
   }
 }
+

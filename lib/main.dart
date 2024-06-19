@@ -16,6 +16,7 @@ import 'package:mratings/collections/top_grossing.dart';
 
 import 'pages/home.dart';
 import 'package:mratings/pages/content.dart';
+import 'package:mratings/error_page/error_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -38,6 +39,7 @@ class MyApp extends StatelessWidget {
             routes: {
               '/': (context) => Home(),
               '/content': (context) => Content(),
+              '/error': (context) => Error(),
               '/action_cinema': (context) => ActionC(),
               '/sci-fi_cinema': (context) => Scifi(),
               '/superhero_cinema': (context) => SHero(),

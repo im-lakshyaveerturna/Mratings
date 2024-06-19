@@ -53,13 +53,14 @@ class _HomeState extends State<Home> {
       ),
       body: Stack(
         children: [
-          if (count == 0 && !isLoading)
+          if (!isLoading)
             SingleChildScrollView(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   SizedBox(height: 10),
-                  Text('Top Picks', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22),),
+                  Text('Top Picks', style: TextStyle(
+                      fontWeight: FontWeight.bold, fontSize: 22),),
                   SizedBox(height: 20,),
                   Row(
                     children: [
@@ -68,23 +69,28 @@ class _HomeState extends State<Home> {
                           onPressed: () {
                             Navigator.pushNamed(context, '/action_cinema');
                           },
-                          style: TextButton.styleFrom(shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18))),
+                          style: TextButton.styleFrom(
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(18))),
                           child: Stack(children: [
                             Container(
-                              width: 365,
-                              height: 200,
-                              decoration: BoxDecoration(
-                                  image: DecorationImage(
-                                    image: AssetImage('images/action.png'),
-                                    fit: BoxFit.cover,
-                                  ),
-                                borderRadius: BorderRadius.circular(18)
-                              )
+                                width: 365,
+                                height: 200,
+                                decoration: BoxDecoration(
+                                    image: DecorationImage(
+                                      image: AssetImage('images/action.png'),
+                                      fit: BoxFit.cover,
+                                    ),
+                                    borderRadius: BorderRadius.circular(18)
+                                )
                             ),
                             Text(
-                                    """ 
+                                """ 
                                                                    
-   ACTION""", style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, letterSpacing: 1)),],)
+   ACTION""", style: TextStyle(fontWeight: FontWeight.bold,
+                                color: Colors.white,
+                                letterSpacing: 1)),
+                          ],)
                       ),
                     ],
                   ),
@@ -96,7 +102,9 @@ class _HomeState extends State<Home> {
                           onPressed: () {
                             Navigator.pushNamed(context, '/sci-fi_cinema');
                           },
-                          style: TextButton.styleFrom(shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18))),
+                          style: TextButton.styleFrom(
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(18))),
                           child: Stack(children: [
                             Container(
                                 width: 365,
@@ -112,7 +120,10 @@ class _HomeState extends State<Home> {
                             Text(
                                 """ 
                                                                    
-   Sci-Fi""", style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, letterSpacing: 1)),],)
+   Sci-Fi""", style: TextStyle(fontWeight: FontWeight.bold,
+                                color: Colors.white,
+                                letterSpacing: 1)),
+                          ],)
                       ),
                     ],
                   ),
@@ -125,14 +136,17 @@ class _HomeState extends State<Home> {
                           onPressed: () {
                             Navigator.pushNamed(context, '/superhero_cinema');
                           },
-                          style: TextButton.styleFrom(shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18))),
+                          style: TextButton.styleFrom(
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(18))),
                           child: Stack(children: [
                             Container(
                                 width: 365,
                                 height: 300,
                                 decoration: BoxDecoration(
                                     image: DecorationImage(
-                                      image: AssetImage('images/superherp.jpeg'),
+                                      image: AssetImage(
+                                          'images/superherp.jpeg'),
                                       fit: BoxFit.cover,
                                     ),
                                     borderRadius: BorderRadius.circular(18)
@@ -141,7 +155,10 @@ class _HomeState extends State<Home> {
                             Text(
                                 """ 
                                                                    
-   Heroes""", style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, letterSpacing: 1)),],)
+   Heroes""", style: TextStyle(fontWeight: FontWeight.bold,
+                                color: Colors.white,
+                                letterSpacing: 1)),
+                          ],)
                       ),
                     ],
                   ),
@@ -153,7 +170,9 @@ class _HomeState extends State<Home> {
                           onPressed: () {
                             Navigator.pushNamed(context, '/drama_cinema');
                           },
-                          style: TextButton.styleFrom(shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18))),
+                          style: TextButton.styleFrom(
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(18))),
                           child: Stack(children: [
                             Container(
                                 width: 365,
@@ -169,7 +188,10 @@ class _HomeState extends State<Home> {
                             Text(
                                 """ 
                                                                    
-   Drama""", style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, letterSpacing: 1)),],)
+   Drama""", style: TextStyle(fontWeight: FontWeight.bold,
+                                color: Colors.white,
+                                letterSpacing: 1)),
+                          ],)
                       ),
                     ],
                   ),
@@ -181,7 +203,9 @@ class _HomeState extends State<Home> {
                           onPressed: () {
                             Navigator.pushNamed(context, '/romance_cinema');
                           },
-                          style: TextButton.styleFrom(shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18))),
+                          style: TextButton.styleFrom(
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(18))),
                           child: Stack(children: [
                             Container(
                                 width: 365,
@@ -197,7 +221,10 @@ class _HomeState extends State<Home> {
                             Text(
                                 """ 
                                                                    
-   Romance""", style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, letterSpacing: 1)),],)
+   Romance""", style: TextStyle(fontWeight: FontWeight.bold,
+                                color: Colors.white,
+                                letterSpacing: 1)),
+                          ],)
                       ),
                     ],
                   ),
@@ -209,7 +236,9 @@ class _HomeState extends State<Home> {
                           onPressed: () {
                             Navigator.pushNamed(context, '/comedy_cinema');
                           },
-                          style: TextButton.styleFrom(shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18))),
+                          style: TextButton.styleFrom(
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(18))),
                           child: Stack(children: [
                             Container(
                                 width: 365,
@@ -225,7 +254,10 @@ class _HomeState extends State<Home> {
                             Text(
                                 """ 
                                                                    
-   Comedy""", style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, letterSpacing: 1)),],)
+   Comedy""", style: TextStyle(fontWeight: FontWeight.bold,
+                                color: Colors.white,
+                                letterSpacing: 1)),
+                          ],)
                       ),
                     ],
                   ),
@@ -237,7 +269,9 @@ class _HomeState extends State<Home> {
                           onPressed: () {
                             Navigator.pushNamed(context, '/horror_cinema');
                           },
-                          style: TextButton.styleFrom(shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18))),
+                          style: TextButton.styleFrom(
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(18))),
                           child: Stack(children: [
                             Container(
                                 width: 365,
@@ -253,7 +287,10 @@ class _HomeState extends State<Home> {
                             Text(
                                 """ 
                                                                    
-   Horror""", style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, letterSpacing: 1)),],)
+   Horror""", style: TextStyle(fontWeight: FontWeight.bold,
+                                color: Colors.white,
+                                letterSpacing: 1)),
+                          ],)
                       ),
                     ],
                   ),
@@ -263,9 +300,12 @@ class _HomeState extends State<Home> {
                       SizedBox(width: 10,),
                       TextButton(
                           onPressed: () {
-                            Navigator.pushNamed(context, '/top_grossing_cinema');
+                            Navigator.pushNamed(
+                                context, '/top_grossing_cinema');
                           },
-                          style: TextButton.styleFrom(shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18))),
+                          style: TextButton.styleFrom(
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(18))),
                           child: Stack(children: [
                             Container(
                                 width: 365,
@@ -281,7 +321,10 @@ class _HomeState extends State<Home> {
                             Text(
                                 """ 
                                                                    
-   Top-Grossing""", style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, letterSpacing: 1)),],)
+   Top-Grossing""", style: TextStyle(fontWeight: FontWeight.bold,
+                                color: Colors.white,
+                                letterSpacing: 1)),
+                          ],)
                       ),
                     ],
                   ),
@@ -289,21 +332,7 @@ class _HomeState extends State<Home> {
                 ],
               ),
             ),
-          if (!isLoading && count == 1 && (
-              movieData.map1['d'] == null || movieData.map1['d'].isEmpty ||
-                  movieData.map2['description'] == null &&
-                      movieData.map2['imdb_rating'] == null &&
-                      movieData.map2['stars'] == null))
-            Positioned.fill(
-              child: Container(
-                decoration: BoxDecoration(
-                  image: DecorationImage(
-                    image: AssetImage('images/noresult.png'),
-                    fit: BoxFit.cover,
-                  ),
-                ),
-              ),
-            ),
+
           Text(' '),
           SafeArea(
             child: Column(
@@ -315,7 +344,9 @@ class _HomeState extends State<Home> {
                         if (isLoading) ...[
                           SizedBox(height: 300,),
                           SpinKitSpinningLines(
-                            color: themeManager.thememode == ThemeMode.dark ? Colors.white : Colors.black,
+                            color: themeManager.thememode == ThemeMode.dark
+                                ? Colors.white
+                                : Colors.black,
                             size: 50.0,
                           ),
                         ],
@@ -334,10 +365,18 @@ class _HomeState extends State<Home> {
   void _fetchMovieData(String query) async {
     try {
       await movieData.fetchMovies(query);
-      if (movieData.map1.isNotEmpty && movieData.map1['d'] != null && movieData.map1['d'].isNotEmpty) {
+      if (movieData.map1.isNotEmpty && movieData.map1['d'] != null &&
+          movieData.map1['d'].isNotEmpty) {
         await movieData.fetchAdditionalData(movieData.map1['d'][0]['id']);
-      }
 
+        if (!isLoading && count == 1 && (
+            movieData.map1['d'] == null || movieData.map1['d'].isEmpty ||
+                movieData.map2['description'] == null &&
+                    movieData.map2['imdb_rating'] == null &&
+                    movieData.map2['stars'] == null)) {
+          Navigator.pushNamed(context, '/error');
+        }
+      }
     } catch (error) {
       print('Error fetching movie data: $error');
     } finally {
@@ -345,14 +384,26 @@ class _HomeState extends State<Home> {
         isLoading = false;
         count = 1;
       });
-      if (!isLoading && movieData.map1.isNotEmpty && movieData.map1['d'] != null && count == 1 &&
-          movieData.map2['description'] != null && movieData.map2['imdb_rating'] != null && movieData.map2['stars'] != null) {
+      if (!isLoading && movieData.map1.isNotEmpty &&
+          movieData.map1['d'] != null && count == 1 &&
+          movieData.map2['description'] != null &&
+          movieData.map2['imdb_rating'] != null &&
+          movieData.map2['stars'] != null) {
         Navigator.pushNamed(
           context,
           '/content',
-          arguments: movieData,
-        );
+          arguments: movieData,);
+      }
+
+
+      if (!isLoading && count == 1 && (
+          movieData.map1['d'] == null || movieData.map1['d'].isEmpty ||
+              movieData.map2['description'] == null &&
+                  movieData.map2['imdb_rating'] == null &&
+                  movieData.map2['stars'] == null)) {
+        Navigator.pushNamed(context, '/error');
       }
     }
   }
+
 }
