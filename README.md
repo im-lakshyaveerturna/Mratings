@@ -46,3 +46,6 @@ This is only the dark mode side of the application, to view light mode and some 
 
 * The application is most likely to be developed further, any suggestions regarding the appearance or funtionality of the application will be much appreciated.
 * This application was developed as an excercise to sharpen flutter/dart skills, therefore I do not expect the code or the application to be the best version of the intended project.
+
+## 
+[Licensed under MIT](https://github.com/im-lakshyaveerturna/Mratings/blob/main/LICENSE)
