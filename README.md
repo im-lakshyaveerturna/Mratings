@@ -31,8 +31,8 @@
 
 ## 📡 APIs used
 
-* [IMDb](https://rapidapi.com/apidojo/api/imdb8/)
-* [Movies Tv Shoes Database](https://rapidapi.com/amrelrafie/api/movies-tv-shows-database)
+* <code>[IMDb](https://rapidapi.com/apidojo/api/imdb8/)</code>
+* <code>[Movies Tv Shoes Database](https://rapidapi.com/amrelrafie/api/movies-tv-shows-database)</code>
 
 
 ## 👁️ Preview
