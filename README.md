@@ -1,5 +1,5 @@
 <h1 align="center">
-  <strong>Mratings</strong>
+  <strong><code>Mratings</code></strong>
 </h1>
 
 <p align="center">
